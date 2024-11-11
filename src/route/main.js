@@ -1,8 +1,8 @@
 const express = require("express")
+const { viewIndex } = require("../controller/main")
 const router = express.Router()
 
-router.get("/", function(req, res){
-    res.render("index.html")
-})
+//Rotas
+router.get("/", viewIndex)
 
 module.exports = router
