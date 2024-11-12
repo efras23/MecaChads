@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-family: "Lucida Sans", "sans-serif";
+    font-size: 33px;
+    color: #fff;
+    font-weight: bold;
+}
+
+span::first-letter {
+    font-size: 43px;
+    color: #d00;
+}

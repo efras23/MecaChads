@@ -7,6 +7,9 @@ app.engine("html", mustacheExpress())
 app.set("view engine", "html")
 app.set("views", __dirname + "/src/view")
 
+//Arquivos estáticos (CSS)
+app.use(express.static(__dirname + "/public"))
+
 //Rotas
 app.use(require("./src/route/main.js"))
 
