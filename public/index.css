@@ -47,10 +47,18 @@ span::first-letter {
     background-size: cover;
 }
 
+.figma {
+    width: 100%;
+    height: 300px;
+    background: url("./figma.jpg") no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+}
+
 .socios {
     width: 100%;
     height: 300px;
-    background: url(./socios.jpg) no-repeat fixed;
+    background: url("./socios.jpg") no-repeat fixed;
     background-size: cover;
 }
 
@@ -71,7 +79,8 @@ h2 {
 }
 
 p {
-    text-align: center;
+    padding: 10px 0 10px;
+    text-align: justify;
     font-size: 23px;
     line-height: 40px;
 }
