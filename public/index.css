@@ -85,6 +85,24 @@ p {
     line-height: 40px;
 }
 
+h3 {
+    margin-top: 10px;
+    padding: 20px 0;
+    width: 100%;
+    text-align: left;
+    border-top: 1px solid #aaa;
+}
+
+ol {
+    padding-left: 100px;
+    width: 100%;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 23px;
+}
+
 /* Footer */
 
 footer {
